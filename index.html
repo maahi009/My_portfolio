@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" />
+    <title>My Portfolio</title>
+</head>
+<body>
+
+  <!--***************** Side Bar**************************-->
+  <nav class="navbar">
+    <a href="#home" class="logo-link"><img class="nav-itm logo" src="./assets/images/Profiles/Profile-1.JPG" alt="profile" width="100%" height=""></a>
+    <a href="#home" class="nav-itm home ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+      </svg>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="nav-itm About">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+      </svg>
+      <p>ABOUT</p>
+    </a>
+    <a href="#projects" class="nav-itm Projects">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-folder-fill" viewBox="0 0 16 16">
+        <path d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z"/>
+      </svg>
+      <p>PROJECTS</p>
+    </a>
+    <a href="https://drive.google.com/file/d/1uvVcSbOmh6G713GSqc5fbfLTykOrCvPz/view?usp=sharing" class="nav-itm resume">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-pdf-fill" viewBox="0 0 16 16">
+        <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z"/>
+        <path fill-rule="evenodd" d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"/>
+      </svg>
+      <p>RESUME</p>
+    </a>
+    <a href="#contact" class="nav-itm contact">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+      </svg>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+   
+  <div class="navbar-sm">
+    <a href="#home" class="" >HOME</a>
+    <a href="#about" class="">ABOUT</a>
+    <a href="#projects" class="">PROJECTS</a>
+    <a href="https://drive.google.com/file/d/1uvVcSbOmh6G713GSqc5fbfLTykOrCvPz/view?usp=sharing" class="">RESUME</a>
+    <a href="#contact" class="">CONTACT</a>
+  </div>
+
+  <!--************* Home ****************-->
+  <section id="home">
+    <div class="content-wrap">
+      <h1><span class="im">I'm </span>Mahesh Panchireddi</h1>
+      <h2>Full stack beginner</h2>
+      <img class="profile_pic" src="./assets/images/Profiles/Profile-2-fotor-bg-remover-20230609145711.png"/>
+    </div>  
+  </section>  
+  
+  <!--************** About ***************-->
+  <section id="about">
+  <div class="content-wrap">
+    <h2>About me</h2>
+    <hr style="width:200px">
+    <p>Hello! I'm Mahesh Panchireddi, a passionate and dedicated full-stack beginner with a strong foundation in development and a thirst for knowledge. I have experience working with programming languages like C++, SQL Server, Python, JavaScript/jQuery, HTML5, and CSS. My journey in the IT industry has equipped me with a solid understanding of object-oriented programming concepts, coding standards, and software development life cycle methodologies.</p>
+
+    <p>As a results-oriented individual, I am driven by the desire to contribute to the growth and innovation of products. I am eager to secure an entry-level position in the IT industry where I can leverage my skills and abilities to make a meaningful impact. With a commitment to delivering high-quality code and adhering to best practices, I am dedicated to contributing to the success of any organization I work with.</p>
+    
+    <p>Throughout my academic and personal projects, I have honed my technical skills and developed a knack for problem-solving. I have successfully created a professional portfolio website using HTML and CSS, implementing concepts like Bootstrap, Grid, and Flexbox to ensure a visually appealing and user-friendly design. I have also utilized Media Queries to ensure adaptability across different devices.</p>
+    
+    <p>In addition to my technical skills, I possess excellent communication and collaboration abilities. I believe in the power of effective communication to foster strong relationships and drive successful outcomes. I am always eager to learn from and collaborate with fellow professionals in the field.</p>
+    
+    <p>Beyond my professional endeavors, I have actively pursued certifications to enhance my skill set. I have earned certifications such as ServiceNow Certified System Administrator, Python Basic, SQL Basic, Engineering Graphics and Design, and Cybersecurity Virtual Internship. These certifications reflect my dedication to continuous learning and improvement.</p>
+
+    <p>In my spare time, I enjoy participating in coding challenges and competitions, where I have achieved notable recognition. I have also excelled in online learning platforms, earning 5 stars in Python programming and SQL on HackerRank. I take pride in my achievements, including the LinkedIn skill badge in HTML and a high ranking in the Prep SAT hiring jobathon.</p>
+    
+    <p>I am a motivated and enthusiastic individual who believes in the power of technology to transform lives and businesses. I am eager to contribute my skills, passion, and fresh perspective to a dynamic organization. If you are looking for a dedicated full-stack beginner who is eager to learn, grow, and make a positive impact, I would be thrilled to connect with you.</p>
+    
+    <p>Thank you for taking the time to visit my portfolio, and I look forward to connecting with you soon.</p>
+
+  </div>
+  </section>
+
+  <!--************* Projects/portfolio *****************-->
+  <section id="projects">
+        <div class="content-wrap divider">
+          <h2>Projects</h2>
+          <hr style="width:200px">    
+          <!-- Project 1 -->
+          <section class="project-item">
+            <img src="./assets/images/Projects/prj-tindog.png" alt="Tin-Dog project">
+            <h3>Tin Dog Project</h3>
+            <p>Developed a TinDog website completely using Bootstrap as part of classwork.</p>
+            <a class="btn" href="https://github.com/maahi009/Tindog-project.git" target="_blank">github link</a>
+          </section>
+
+          <!-- Project 2 -->
+          <section class="project-item">
+            <img src="./assets/images/Projects/prj-moveIt.png" alt="AD agency website">
+            <h3>MoveIT</h3>
+            <p>A simple website developed as part of class work, using HTML and bootstrap components. Implemented Media Queries to ensure adaptability across different devices.</p>
+            <a class="btn" href="https://github.com/maahi009/MoveIT.git" target="_blank">github link</a>
+          </section>
+
+          <!-- Project 3 -->
+          <section class="project-item">
+            <img src="./assets/images/Projects/prj-mondrian.png" alt="Mondrian composition"> 
+            <h3>Mondrian composition</h3>
+            <p>Developed a simple Mondrian composition using CSS Grid as part of class work.</p>
+            <a class="btn" href="https://github.com/maahi009/Mondrian-project.git" target="_blank">github link</a>
+          </section>
+        </div>
+      </section>
+  
+  <!--******************* Certifications *******************-->
+
+<!--<section id="certifications">
+  <div class="container">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active cert" data-bs-interval="10000">
+          <img src="./assets/images/Certificates/CSA.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item cert" data-bs-interval="2000">
+          <img src="./assets/images/Certificates/CyberSecurity.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item cert">
+          <img src="./assets/images/Certificates/Python.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <hr>
+</section>-->
+  <!--****************** Contact **************************-->
+     <section id="contact">
+      <div class="content-wrap">
+        <h2>Contact Me</h2>
+        <hr style="width:200px">
+
+        <div class="contact-sec">
+          <p><i class="fa fa-map-marker fa-fw contact-icon"></i>Andrapradesh, IND</p>
+          <p><i class="fa fa-phone fa-fw contact-icon"></i> Phone: +91 9347150549</p>
+          <p><i class="fa fa-envelope fa-fw contact-icon"> </i> Email: maheshpanchireddi@gail.com</p>
+        </div><br>
+        <p>Let's get in touch. Send me a message:</p>
+    
+        <form action="" target="_blank">
+          <p><input  type="text" placeholder="Name" required="" name="Name" fdprocessedid="dunfzd"></p>
+          <p><input type="text" placeholder="Email" required="" name="Email" fdprocessedid="rmo24s"></p>
+          <p><input type="text" placeholder="Subject" required="" name="Subject" fdprocessedid="vi1qll"></p>
+          <p><input type="text" placeholder="Message" required="" name="Message" fdprocessedid="wb5myq"></p>
+          <p>
+            <button type="submit" fdprocessedid="nue9gq">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+      <!-- End Contact Section -->
+      </div>
+     </section>
+
+
+  <footer class="social-media">
+    <div class="content-wrap">
+      <i class="fa fa-facebook-official footer-icon"></i>
+      <i class="fa fa-instagram footer-icon"></i>
+      <i class="fa fa-twitter footer-icon"></i>
+      <i class="fa fa-linkedin footer-icon"></i>
+      <i class="fa fa-github footer-icon"></i>
+      <p class="w3-medium">@mahesh <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green"></a></p>
+    </div>  
+  <!-- End footer -->
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
